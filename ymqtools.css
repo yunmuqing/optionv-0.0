@@ -1,0 +1,42 @@
+/*ymqtools.css*/
+.just-tooltip{position:absolute;left:0;top:0;border-radius:5px;background:#000;/*display:inline-block;*/z-index:9999;}
+.just-tooltip .just-con{padding:6px 8px;color:#fff;font-size: 12px;}
+
+.just-tooltip .just-top,
+.just-tooltip .just-bottom,
+.just-tooltip .just-left,
+.just-tooltip .just-right{content:"";position:absolute;width:0;height:0;overflow:hidden;border-style:solid;}
+
+.just-tooltip .just-top{left:50%;top:100%;border-width: 7px 5px 0 5px;margin-left:-5px;
+  border-color: #1B1E24 transparent transparent transparent;
+    _border-color: #1B1E24 #000000 #000000 #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.just-tooltip .just-bottom{ left:50%; top:-7px;border-width: 0 5px 7px 5px;margin-left:-5px;
+  border-color: transparent transparent #1B1E24 transparent;
+    _border-color:#000000 #000000 #1B1E24 #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');}
+.just-tooltip .just-left{ right:-7px; top:50%;border-width: 5px 0 5px 7px;margin-top:-5px;;
+  border-color: transparent transparent transparent #1B1E24;
+    _border-color:#000000 #000000 #000000 #1B1E24;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  }
+.just-tooltip .just-right{ left:-7px; top:50%;border-width: 5px 7px 5px 0;margin-top:-5px;
+  border-color: transparent #1B1E24 transparent transparent;
+    _border-color:#000000 #000000 #000000 #1B1E24;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+  }
+
+.just-tooltip .just-confirm{text-align:center;margin:0 10px 10px 10px;}
+.just-tooltip .just-yes, .just-tooltip .just-no{background:#fff;color:#000;border:0;padding:5px 10px;}
+.just-tooltip .just-no{margin-left:10px;}
+.ymq_tooltip_switch_img {
+    max-width: 200px;
+}
+.just-tooltip {
+    background: #fff;
+}
+.just-tooltip .just-con {
+    color: #000;
+   text-align: center;
+}
